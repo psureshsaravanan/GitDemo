@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="6" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="69" started-at="2020-11-23T19:04:40 IST" finished-at="2020-11-23T19:04:40 IST">
+    <groups>
+      <group name="Regression">
+        <method signature="Sample3.first()[pri:0, instance:test.Sample3@43814d18]" name="first" class="test.Sample3"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="Sample1.seccond()[pri:0, instance:test.Sample1@610694f1]" name="seccond" class="test.Sample1"/>
+        <method signature="Sample2.first()[pri:0, instance:test.Sample2@5c5a1b69]" name="first" class="test.Sample2"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Test" duration-ms="69" started-at="2020-11-23T19:04:40 IST" finished-at="2020-11-23T19:04:40 IST">
+      <class name="test.Sample3">
+        <test-method status="PASS" signature="first()[pri:0, instance:test.Sample3@43814d18]" name="first" duration-ms="1" started-at="2020-11-23T19:04:40 IST" finished-at="2020-11-23T19:04:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- first -->
+      </class> <!-- test.Sample3 -->
+      <class name="test.Sample2">
+        <test-method status="PASS" signature="fun()[pri:0, instance:test.Sample2@5c5a1b69]" name="fun" is-config="true" duration-ms="7" started-at="2020-11-23T19:04:40 IST" finished-at="2020-11-23T19:04:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fun -->
+        <test-method status="PASS" signature="fun1()[pri:0, instance:test.Sample2@5c5a1b69]" name="fun1" is-config="true" duration-ms="0" started-at="2020-11-23T19:04:40 IST" finished-at="2020-11-23T19:04:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fun1 -->
+        <test-method status="PASS" signature="first()[pri:0, instance:test.Sample2@5c5a1b69]" name="first" duration-ms="4" started-at="2020-11-23T19:04:40 IST" finished-at="2020-11-23T19:04:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- first -->
+      </class> <!-- test.Sample2 -->
+      <class name="test.Sample1">
+        <test-method status="PASS" signature="seccond()[pri:0, instance:test.Sample1@610694f1]" name="seccond" duration-ms="11" started-at="2020-11-23T19:04:40 IST" finished-at="2020-11-23T19:04:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seccond -->
+      </class> <!-- test.Sample1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
