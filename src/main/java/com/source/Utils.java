@@ -38,6 +38,7 @@ public class Utils {
 	}
 	public static Map<String, Map<String, String>> readYaml() throws JsonParseException, JsonMappingException, IOException {
 		if(yaml==null) {
+			System.out.println("Yaml code process going on");
 			ObjectMapper mapper = new ObjectMapper(new YAMLFactory());
 			 yaml = mapper.readValue(new File("./Config.yaml"), Map.class);
 			return yaml;
