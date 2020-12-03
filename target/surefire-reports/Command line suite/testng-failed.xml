@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.test.GeneralStoreTest">
+        <methods>
+          <include name="startEmul"/>
+          <include name="addTwoItem"/>
+          <include name="tearDown"/>
+          <include name="set"/>
+        </methods>
+      </class> <!-- com.test.GeneralStoreTest -->
+      <class name="com.test.APIdemoTest">
+        <methods>
+          <include name="set"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.test.APIdemoTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.test.APIdemoTest">
+        <methods>
+          <include name="firstCase"/>
+          <include name="set"/>
+        </methods>
+      </class> <!-- com.test.APIdemoTest -->
+      <class name="com.test.GeneralStoreTest">
+        <methods>
+          <include name="startEmul"/>
+          <include name="tearDown"/>
+          <include name="set"/>
+        </methods>
+      </class> <!-- com.test.GeneralStoreTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

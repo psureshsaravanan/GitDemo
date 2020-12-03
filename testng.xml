@@ -1,33 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Regression">
-  <test thread-count="5" name="RegressionTest">
-    <groups>
-       <run>
-    <include name="Smoke"/>
-    </run>
-    
-    </groups>
-    <classes>
-      <class name="test.Sample1"/>
-      <class name="test.Sample2"/>
-      <class name="test.Sample3"/>
-    </classes>
- 
-  </test> <!-- Test -->
-<test thread-count="5" name="RegressionTest1">
-    <groups>
-       <run>
-    <include name="Regression"/>
-    </run>
-    
-    </groups>
-    <classes>
-      <class name="test.Sample1"/>
-      <class name="test.Sample2"/>
-      <class name="test.Sample3"/>
-    </classes>
- 
-  </test> <!-- Test -->
+<suite name="Suite">
 
+<listeners>
+<listener class-name="com.source.Listeners"/>
+<listener class-name="com.source.ExtentReporterNG"/>
+</listeners>
+
+  <test thread-count="5" name="Test">
+    <classes>
+<!--       <class name="com.test.GeneralStoreTest"/> -->
+        <class name="com.test.APIdemoTest"/>
+    </classes>
+  </test> <!-- Test -->
 </suite> <!-- Suite -->

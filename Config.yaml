@@ -1,0 +1,11 @@
+GeneralStoreAPP:
+    DeviceName:  Sureshemulator
+    Installed:  Yes
+    AppPackage:  com.androidsample.generalstore
+    AppActivity:  com.androidsample.generalstore.SplashActivity
+    HybridApp:  Yes
+APIDemo:
+   DeviceName:  Sureshemulator
+   Installed:  No
+   APKPath:  ./ApiDemos-debug.apk
+   HybridApp:  No
