@@ -45,7 +45,9 @@ public class Utils {
 			}
 		return yaml;
 			}
-
+public static void newCOde() {
+	System.out.println("New code commit check tog git");
+}
 public static void scrollToText(AndroidDriver<AndroidElement> driver,String textName) {
 	driver.findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\""+textName+"\"));");
 }
